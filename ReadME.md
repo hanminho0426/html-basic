@@ -137,18 +137,55 @@
 
 #### 블록(Block)종류
 
-1. <div></div> 특별한 의미가 없는 구분을 위한 요소(Division)
-2. <h1></h1> 제목을 의미하는 요소(Heading) h1~h6까지있고, 숫자가 작을수록 제묵의 크기가 작아진다.
-3. <p></p> 문장을 의미하는 요소(Paragraph)
-4. <ul></ul> 순서가 필요없는 목록의 집합을 의미.(Unordered List) ul태그의 자식으로는 반드시 li가 하나라도 있어야 한다.
-5. <li></li> 목록 내 각 항목 (List item)
-6. <input type="text" value="Hello" 미리 입력된 값(데이터) 화면에 미리 출력될 값/>
-   <input type="text" placeholeder="이름을 입력하세요" 사용자가 입력할 값(데이터)의 힌트 희미하게 보여지는 값 />
-   <input type="text" disabled 입력요소 비활성화 사용자가 입력창에 입력을 할 수 없어짐>
-   <input type="checkbox" 사용자에게 체크 여부를 입력 받음!>
-   <input type="checkbox" checked 체크박스 입력 요소가 미리 체크됨/>
-   <input type="radio" 사용자에게 체크 여부를 그룹에서 1개만 입력 받음! name="그룹이름" 그룹지어주는 그룹명/>
-   사용자가 데이터를 입력하는 요소, \*인라인인 동시에 블록의 성질을 가진다(inline-block).
+1. div 특별한 의미가 없는 구분을 위한 요소(Division)
+2. h1 제목을 의미하는 요소(Heading) h1~h6까지있고, 숫자가 작을수록 제묵의 크기가 작아진다.
+3. p 문장을 의미하는 요소(Paragraph)
+4. ul 순서가 필요없는 목록의 집합을 의미.(Unordered List) ul태그의 자식으로는 반드시 li가 하나라도 있어야 한다.
+5. li 목록 내 각 항목 (List item)
+6. input
+
+```html
+<input type="text" value="Hello" 미리 입력된 값(데이터) 화면에 미리 출력될 값 />
+<input
+  type="text"
+  placeholeder="이름을 입력하세요"
+  사용자가
+  입력할
+  값(데이터)의
+  힌트
+  희미하게
+  보여지는
+  값
+/>
+<input
+  type="text"
+  disabled
+  입력요소
+  비활성화
+  사용자가
+  입력창에
+  입력을
+  할
+  수
+  없어짐
+/>
+<input type="checkbox" 사용자에게 체크 여부를 입력 받음! />
+<input type="checkbox" checked 체크박스 입력 요소가 미리 체크됨 />
+<input
+  type="radio"
+  사용자에게
+  체크
+  여부를
+  그룹에서
+  1개만
+  입력
+  받음!
+  name="그룹이름"
+  그룹지어주는
+  그룹명
+/>
+<!-- 사용자가 데이터를 입력하는 요소, \*인라인인 동시에 블록의 성질을 가진다(inline-block). -->
+```
 
 ```html
 <ul>
